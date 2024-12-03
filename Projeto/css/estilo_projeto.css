@@ -1,0 +1,1168 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Passion One', cursive;
+}
+
+.banner {
+    background-color: rgb(42, 68, 184);
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 35px;
+    padding-left: 8px;
+}
+
+.login {
+    float: right;
+    padding: 10px;
+    color: #FFF;
+    position: relative;
+    background-color: transparent;
+    outline: none;
+    margin-right: 300px;
+    margin-left: -290px;
+    margin-top: -20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login:hover {
+    color: black;
+}
+
+.login::after {
+    color: black;
+    content: '';
+    /* Cria o pseudo-elemento */
+    position: absolute;
+    /* Posiciona em relação ao botão */
+    left: 0;
+    /* Começa na extrema esquerda */
+    bottom: 0;
+    /* Posiciona na parte inferior do botão */
+    height: 3px;
+    /* Altura da linha */
+    width: 0%;
+    /* Largura inicial da linha */
+    background-color: black;
+    /* Cor da linha */
+    transition: width 0.2s ease-in-out;
+    /* Animação suave na largura */
+}
+
+.login:hover::after {
+    width: 100%;
+    /* Faz a linha crescer até preencher toda a largura */
+
+}
+
+.logo {
+    height: 110px;
+    margin-left: 40px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+.nav {
+    background-color: rgb(42, 68, 184);
+    height: 50px;
+    width: 101%;
+    margin-top: 66px;
+    margin-left: -19px;
+    text-align: end;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin-right: 150px;
+    margin-top: -30px;
+}
+
+.nav ul li {
+    text-transform: uppercase;
+    float: right;
+    padding: 15px;
+    padding-right: 35px;
+    border-left-style: hidden;
+}
+
+.nav a {
+    position: relative;
+    /* Necessário para o pseudo-elemento */
+    text-decoration: none;
+    /* Remove o sublinhado */
+    color: white;
+    /* Cor do texto inicial */
+    transition: color 0.2s ease;
+    /* Animação suave na cor do texto */
+    font-size: 18px;
+    /* Tamanho do texto */
+    font-size: 30px;
+}
+
+.nav a::after {
+    color: black;
+    content: '';
+    /* Cria o pseudo-elemento */
+    position: absolute;
+    /* Posiciona em relação ao botão */
+    left: 0;
+    /* Começa na extrema esquerda */
+    bottom: 0;
+    /* Posiciona na parte inferior do botão */
+    height: 3px;
+    /* Altura da linha */
+    width: 0%;
+    /* Largura inicial da linha */
+    background-color: black;
+    /* Cor da linha */
+    transition: width 0.2s ease-in-out;
+    /* Animação suave na largura */
+}
+
+.nav a:hover::after {
+    width: 100%;
+    /* Faz a linha crescer até preencher toda a largura */
+}
+
+.fa {
+    display: none;
+}
+
+.banner ul li:hover>a {
+    color: black;
+}
+
+.Lista {
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.MainImg {
+    height: 812px;
+    width: 1905px;
+    padding-top: -10px;
+    padding-left: -10px;
+    position: absolute;
+    filter: blur(5px) brightness(0.5);
+}
+
+.MainTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 105px;
+    margin-top: 200px;
+    margin-left: 270px;
+    color: white;
+}
+
+.MainSubTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 30px;
+    margin-top: 345px;
+    margin-left: 630px;
+    color: white;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-left: 800px;
+    margin-top: 510px;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(42, 68, 184);
+    border-radius: 15px;
+    box-shadow: 4px 2px 2px 1px rgba(255, 255, 255, 0.7);
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 2px solid rgb(42, 68, 184)
+}
+
+.Servicos {
+    background-color: lightblue;
+    height: 496px;
+    width: 1905px;
+    margin-top: 900px;
+}
+
+.ImgLan {
+    position: absolute;
+    width: 950px;
+}
+
+.TServTxt {
+    margin-left: 1080px;
+    margin-top: 50px;
+    font-size: 60px;
+    position: absolute;
+}
+
+.ServTxt {
+    margin-left: 990px;
+    position: absolute;
+    margin-top: 180px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.setups {
+    width: 1895px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 643px;
+}
+
+.titulo {
+    font-size: 50px;
+    width: 21%;
+    margin: 100px 40%;
+    text-align: center;
+    float: left;
+}
+
+.titulo2 {
+    font-size: 50px;
+    width: 21%;
+    margin: 100px 39%;
+    text-align: center;
+    /*float: left*/
+    color: #007BFF;
+}
+
+.especificacoes {
+    height: 385px;
+    width: 687px;
+    float: left;
+}
+
+.especTitulo {
+    margin-left: -173px;
+    margin-top: 145px;
+    font-size: 35px;
+    float: left;
+}
+
+.especTxt {
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 210px;
+    margin-left: -249px;
+    float: left;
+}
+
+.especImg {
+    float: left;
+    height: 135px;
+    margin-left: 290px;
+    margin-top: -25px;
+}
+
+.monitorcadeira {
+    height: 385px;
+    width: 600px;
+    float: left;
+}
+
+.mcTitulo {
+    margin-left: -218px;
+    margin-top: 137px;
+    font-size: 35px;
+    float: left;
+}
+
+.mcTxt {
+    position: absolute;
+    margin-top: 210px;
+    margin-left: -295px;
+    font-size: 25px;
+    text-align: center;
+    float: left;
+}
+
+.mcImg {
+    float: left;
+    height: 135px;
+    margin-left: 164px;
+    margin-top: -25px;
+}
+
+.perifericos {
+    float: left;
+    height: 385px;
+    width: 600px;
+}
+
+.periTitulo {
+    margin-top: 35px;
+    margin-left: 153px;
+    font-size: 35px;
+    float: left;
+}
+
+.periTxt {
+    position: absolute;
+    margin-left: -225px;
+    margin-top: 210px;
+    font-size: 25px;
+    text-align: center;
+    float: left;
+}
+
+.periImg {
+    float: left;
+    height: 135px;
+    margin-left: 127px;
+    margin-top: -35px;  
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: rgb(42, 68, 184);
+    width: 100%;
+    height: 120px;
+    font-size: 20px;
+    float: left;
+    margin-top: 100px;
+}
+ 
+.controdape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.chamados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.whtts {
+    margin-left: 10px;
+    width: 45px;
+    border-radius: 35px;
+    /* margin-left: -289px; */
+    border-color: white;
+    border-style: solid;
+    float: left;
+}
+ 
+.youtube {
+    width: 45px;
+    border-radius: 35px;
+    height: 45px;
+    /* margin-left: -218px; */
+    border-color: white;
+    border-style: solid;
+    margin-left: 10px;
+    float: left;
+}
+ 
+.insta {
+    width: 45px;
+    border-radius: 35px;
+    /* margin-left: -147px; */
+    border-color: white;
+    border-style: solid;
+    margin-left: 10px;
+    cursor: pointer;
+}
+ 
+.face {
+    width: 45px;
+    border-radius: 37px;
+    margin-left: 10px;
+    border-color: white;
+    border-style: solid;
+}
+
+.siga{
+    font-size: 25px;
+    color: white;
+    margin-top: -35px;
+    float: left;
+    margin-left: 12px;
+}
+.controdape {
+    padding: 12px;
+}
+
+.localizacao {
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+
+.maps {
+    margin-left: 250px;
+    margin-top: 45px;
+    position: absolute;
+}
+
+.locTitulo {
+    position: absolute;
+    margin-left: 970px;
+    margin-top: 75px;
+    font-size: 40px;
+    font-family: passion one;
+    text-decoration: bold;
+}
+
+.locTxt {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 975px;
+    margin-right: 430px;
+    font-size: 20px;
+}
+
+.loctel {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 1025px;
+    font-size: 20px;
+}
+
+.locctt {
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 1025px;
+    font-size: 20px;
+}
+
+.locEnd {
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 1025px;
+    font-size: 20px;
+}
+
+.tel {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 990px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.email {
+    position: absolute;
+    margin-top: 365px;
+    margin-left: 990px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.endereco {
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 990px;
+    font-size: 20px;
+    height: 30px;
+}
+
+/* Contato */
+.abnnerctt {
+    width: 1915px;
+    height: 200px;
+    float: left;
+}
+
+.cttImg {
+    width: 1915px;
+    height: 500px;
+    padding-top: -10px;
+    padding-left: -10px;
+    filter: blur(5px) brightness(0.5);
+}
+
+.cttTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 145px;
+    margin-top: -340px;
+    margin-left: 600px;
+    color: white;
+}
+
+.formCtt {
+    margin-top: 100px;
+    margin-left: 900px;
+    float: left;
+    width: 600px;
+    height: 730px;
+}
+
+.txtform {
+    width: 680px;
+    font-size: 20px;
+    margin: 15px 10%;
+    min-height: 30px;
+    float: left;
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.endereco2 {
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 290px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.labelform {
+    margin: 10px 10%;
+    font-size: 35px;
+}
+
+.btnform {
+    margin-left: -750px;
+    margin-top: 190px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(42, 68, 184);
+    padding: 20px 35px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Passion One', cursive;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btnform:hover {
+    background-color: rgb(42, 68, 184);
+    /* Fundo azul */
+    color: white;
+    /* Texto branco */
+}
+
+.conhecer {
+    margin-top: 100px;
+    margin-left: 260px;
+    position: absolute;
+    float: left;
+    width: 600px;
+    height: 730px;
+}
+
+.loctel2 {
+    position: absolute;
+    margin-top: 63px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.locctt2 {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.locEnd2 {
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.tel2 {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.email2 {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 30px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.endereco2 {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 30px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.TituloC {
+    font-size: 70px;
+    color: rgb(42, 68, 184);
+
+}
+
+.TextoC {
+    padding: 50px 0px;
+    font-size: 30px;
+}
+
+/* SOBRE A LAN */
+.imgalan {
+    height: 500px;
+    width: 100%;
+    padding-top: -10px;
+    padding-left: -10px;
+}
+
+.imagprincipal {
+    height: auto;
+}
+
+.maintxtlan {
+    position: absolute;
+    z-index: 3;
+    font-size: 105px;
+    margin-top: 200px;
+    margin-left: 35%;
+    color: white;
+}
+
+.TlanTxt {
+    position: absolute;
+    margin-left: 34.5%;
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+.lanTxt {
+    position: absolute;
+    margin-left: 29%;
+    margin-top: 180px;
+    margin-right: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.logoLan {
+    position: absolute;
+    height: 110px;
+    margin-left: 48.5%;
+    margin-top: 40px;
+}
+
+.setupLevCup {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(42, 68, 184);
+    height: 600px;
+    width: 100%;
+}
+
+.SetupImg {
+    position: absolute;
+    width: 525px;
+    margin-left: 17%;
+    margin-top: 40px;
+}
+
+.SetupImg2 {
+    position: absolute;
+    width: 417px;
+    margin-left: 60%;
+    margin-top: 40px;
+}
+
+/* LEV CUP */
+.levcupimg {
+    height: 500px;
+    width: 1905px;
+    padding-top: -10px;
+    padding-left: -10px;
+    position: absolute;
+    filter: blur(5px) brightness(0.5);
+}
+
+.LevCupTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 85px;
+    margin-top: 160px;
+    margin-left: 650px;
+    color: white;
+
+}
+
+.CpTTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 16px;
+    margin-top: 525px;
+    margin-left: 822px;
+    color: rgb(42, 68, 184);
+    font-family: "Oswald", sans-serif;
+    text-decoration: bold;
+}
+
+.SubCpTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 40px;
+    margin-top: 575px;
+    margin-left: 695px;
+    color: rgb(0, 0, 0);
+}
+
+.SobreCpTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 20px;
+    margin-top: 645px;
+    margin-left: 735px;
+    color: rgb(100, 124, 230);
+    font-family: "Oswald", sans-serif;
+    text-decoration: underline;
+}
+
+.PremioTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 19px;
+    margin-top: 698px;
+    margin-left: 807px;
+    color: rgb(91, 67, 230);
+    font-family: "Oswald", sans-serif;
+}
+
+.TwitchTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 21px;
+    margin-top: 740px;
+    margin-left: 660px;
+    color: rgb(62, 38, 100);
+    font-family: "Oswald", sans-serif;
+}
+
+.setupLevCup {
+    background-color: rgb(42, 68, 184);
+    height: 600px;
+    width: 1905px;
+    margin-top: 800px;
+}
+
+.setupLevCup2 {
+    background-color: rgb(42, 68, 184);
+    height: 600px;
+    width: 1905px;
+}
+
+.SetupImg {
+    position: absolute;
+    width: 525px;
+    margin-left: 17%;
+    margin-top: 40px;
+}
+
+.SetupImg2 {
+    position: absolute;
+    width: 417px;
+    margin-left: 60%;
+    margin-top: 40px;
+}
+
+.CpTTxt2 {
+    position: absolute;
+    z-index: 3;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-left: 790px;
+    color: rgb(42, 68, 184);
+}
+
+.SubCpTxt2 {
+    position: absolute;
+    z-index: 3;
+    font-size: 30px;
+    margin-top: 180px;
+    margin-left: 300px;
+    color: rgb(62, 38, 100);
+    font-family: "Oswald", sans-serif;
+}
+
+.PremioTxt2 {
+    position: absolute;
+    z-index: 3;
+    font-size: 20px;
+    margin-top: 230px;
+    margin-left: 282px;
+    list-style-type: disc;
+    font-family: "Oswald", sans-serif;
+}
+
+.FuncionaTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 30px;
+    margin-top: 340px;
+    margin-left: 300px;
+    color: rgb(62, 38, 100);
+    font-family: "Oswald", sans-serif;
+}
+
+.SubFunciona {
+    position: absolute;
+    z-index: 3;
+    font-size: 20px;
+    margin-top: 390px;
+    margin-left: 300px;
+    list-style-type: disc;
+    font-family: "Oswald", sans-serif;
+}
+
+.Data {
+    position: absolute;
+    z-index: 3;
+    font-size: 22px;
+    margin-top: 500px;
+    margin-left: 300px;
+    color: rgb(62, 38, 100);
+    font-family: "Oswald", sans-serif;
+}
+
+.DataTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 19px;
+    margin-top: 540px;
+    margin-left: 282px;
+    list-style-type: disc;
+    font-family: "Oswald", sans-serif;
+}
+
+.InscricaoTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 40px;
+    margin-top: 700px;
+    margin-left: 730px;
+    color: rgb(42, 68, 184);
+}
+
+.PrimeiroPasso {
+    position: absolute;
+    z-index: 3;
+    font-size: 22px;
+    margin-top: 800px;
+    margin-left: 300px;
+    color: rgb(62, 38, 100);
+    font-family: "Oswald", sans-serif;
+}
+
+.InscricaoTxt2 {
+    position: absolute;
+    z-index: 3;
+    font-size: 20px;
+    margin-top: 850px;
+    margin-left: 300px;
+    list-style-type: disc;
+    font-family: "Oswald", sans-serif;
+}
+
+.ValorInscricao {
+    position: absolute;
+    z-index: 3;
+    font-size: 18px;
+    margin-top: 930px;
+    margin-left: 282px;
+    list-style-type: disc;
+    font-family: "Oswald", sans-serif;
+}
+
+.SegundoPasso {
+    position: absolute;
+    z-index: 3;
+    font-size: 22px;
+    margin-top: 1000px;
+    margin-left: 300px;
+    color: rgb(62, 38, 100);
+    font-family: "Oswald", sans-serif;
+}
+
+.InscricaoTxt4 {
+    position: absolute;
+    z-index: 3;
+    font-size: 20px;
+    margin-top: 1050px;
+    margin-left: 300px;
+    list-style-type: disc;
+    font-family: "Oswald", sans-serif;
+}
+
+.TerceiroPasso {
+    position: absolute;
+    z-index: 3;
+    font-size: 22px;
+    margin-top: 1130px;
+    margin-left: 300px;
+    color: rgb(62, 38, 100);
+    font-family: "Oswald", sans-serif;
+}
+
+.InscricaoTxt5 {
+    position: absolute;
+    z-index: 3;
+    font-size: 20px;
+    margin-top: 1190px;
+    margin-left: 300px;
+    list-style-type: disc;
+    font-family: "Oswald", sans-serif;
+}
+
+.JogandoCopaTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 40px;
+    margin-top: 1350px;
+    margin-left: 830px;
+    color: rgb(42, 68, 184);
+}
+
+.JogandoCopaTxt2 {
+    position: absolute;
+    z-index: 3;
+    font-size: 20px;
+    margin-top: 1450px;
+    margin-left: 300px;
+    list-style-type: disc;
+    font-family: "Oswald", sans-serif;
+}
+
+.JogandoCopaTxt3 {
+    position: absolute;
+    z-index: 3;
+    font-size: 20px;
+    margin-top: 1550px;
+    margin-left: 300px;
+    list-style-type: disc;
+    font-family: "Oswald", sans-serif;
+}
+
+.CpTTxt3 {
+    position: absolute;
+    z-index: 3;
+    font-size: 16px;
+    margin-top: 1700px;
+    margin-left: 870px;
+    color: rgb(42, 68, 184);
+    font-family: "Oswald", sans-serif;
+}
+
+.DataQualifyTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 22px;
+    margin-top: 1800px;
+    margin-left: 300px;
+    color: rgb(62, 38, 100);
+    font-family: "Oswald", sans-serif;
+}
+
+.DataQualifyLi {
+    position: absolute;
+    z-index: 3;
+    font-size: 19px;
+    margin-top: 1850px;
+    margin-left: 282px;
+    list-style-type: disc;
+    font-family: "Oswald", sans-serif;
+}
+
+.CronogramaTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 22px;
+    margin-top: 1930px;
+    margin-left: 300px;
+    color: rgb(62, 38, 100);
+    font-family: "Oswald", sans-serif;
+}
+
+.CronogramaLi {
+    position: absolute;
+    z-index: 3;
+    font-size: 19px;
+    margin-top: 1980px;
+    margin-left: 282px;
+    list-style-type: disc;
+    font-family: "Oswald", sans-serif;
+}
+
+.InformacoesTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 22px;
+    margin-top: 2267px;
+    margin-left: 300px;
+    color: rgb(62, 38, 100);
+    font-family: "Oswald", sans-serif;
+}
+
+.InformacoesLi {
+    position: absolute;
+    z-index: 3;
+    font-size: 19px;
+    margin-top: 2300px;
+    margin-left: 282px;
+    list-style-type: disc;
+    font-family: "Oswald", sans-serif;
+}
+
+.Regras {
+    height: 2600px;
+}
+
+.RegrasTxt {
+    position: absolute;
+    z-index: 3;
+    font-size: 22px;
+    margin-top: 2483px;
+    margin-left: 300px;
+    color: rgb(62, 38, 100);
+    font-family: "Oswald", sans-serif;
+}
+
+.RegrasLi {
+    position: absolute;
+    z-index: 3;
+    font-size: 19px;
+    margin-top: 2520px;
+    margin-left: 282px;
+    list-style-type: disc;
+    font-family: "Oswald", sans-serif;
+}
+
+/*  LOGIN  E CADASTRO  */
+form#login {
+    margin-left: 500px;
+    width: 900px;
+}
+
+form#cadastro {
+    margin-left: 500px;
+    width: 900px;
+}
+
+.login_titulo {
+    font-size: 70px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.labelform_login {
+    margin-left: 90px;
+    font-size: 25px;
+}
+
+.btn {
+    margin-left: -770px;
+    margin-top: 64px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(42, 68, 184);
+    padding: 17px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Passion One', cursive;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(42, 68, 184);
+    /* Fundo azul */
+    color: white;
+    /* Texto branco */
+}
+
+.btn_limpar {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(42, 68, 184);
+    padding: 17px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Passion One', cursive;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn_limpar:hover {
+    background-color: rgb(42, 68, 184);
+    /* Fundo azul */
+    color: white;
+    /* Texto branco */
+}
+
+a.link-cad {
+    margin-left: 85px;
+}
+
+/*  Serviços  */
+
+.plano{
+    display: flex;
+    justify-content: space-around;
+}
+.planos_titulos{
+    padding: 0px 36px;
+    font-size: 45px;
+}
+.planos_gold{
+    padding: 0px 77px;
+    font-size: 45px;
+}
+.planos_corujao{
+    padding: 0px 119px;
+    font-size: 45px;
+}
+.txt_planos{
+    padding: 0px 24px;
+    font-size: 20px;
+}
+.img_leviatan{
+    width: 180px;
+    padding: 35px 90px;
+}
+.img_gold{
+    width: 250px;
+    padding: 4px 52px;
+}
+.img_diamond{
+    width: 250px;
+    padding: 0px 45px;
+}
+.img_corujao{
+    width: 130px;
+    padding: 60px 130px;
+}
+h1.planos_corujao{
+    margin-top: -5.15px;
+}
