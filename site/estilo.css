@@ -1,0 +1,259 @@
+                                                                                              
+
+
+
+               /* Arquivo css formatação do site */    
+
+       /* -------------------Formatação geral--------------------------*/                                                                                     /**/
+
+	*{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	text-decoration: none;
+	list-style: none;
+	
+	}
+
+	                
+	   /* ------------------------ TOPO DO SITE ---------------------------- */
+
+
+    #topo{
+    position: relative;
+	
+	width: 100%;
+	height: 200px;
+	float: left;
+	background-color:black;
+}
+	.logo{
+		position: relative;
+		width: 200px;
+		height: 200;
+		float: left;
+		margin: 20px;
+	}
+	.link_top{
+		float: right;
+		padding: 10px;
+		margin-left: 5px;
+		background-color:#008B8B;
+		color: #FFF;
+		margin: 5px 2px;
+}
+
+	.link_top:hover{
+
+		background-color:#fff;
+		color:black;
+
+	}
+
+ /*----------------------------FIM DO TOPO ----------------------  */
+
+
+ /*----------------------------COMEÇO DO MENU--------------------------- */
+
+	
+    #menu{
+    position: relative;
+
+	width: 100%;
+	height: 40px;
+	float: left;
+	background-color: #008B8B;
+
+
+}
+    .link_menu  li a{
+    	float: left;
+    	margin-top: -1px;
+    	padding: 15px;
+    	background-color:#008B8B;
+    	color: #fff;
+
+}
+
+
+/*---------------EFEITO QUANDO PASSAR MOUSE POR CIMA  -----------*/
+		.link_menu li a:hover{
+
+		background-color:#fff;
+		color:black;
+	}
+
+
+
+
+/*-------------------------FIM DO MENU--------------------- */
+
+
+/*-------------------------INICIO DO CONTEUDO----------------------*/
+
+
+    .imagem{
+
+    	width: 100%;
+    }
+	#conteudo{
+    position: relative;
+	width: 100%;
+	height: 700px;
+	float: left;
+	background-color: #FFF;
+	}
+
+	#conteudo_principal{
+		width: 67.5%;
+		height: 570px;
+		float: left;
+		border: 1px solid black;
+		margin: 15px 10px;
+	}
+
+	
+	#recentes{
+		width: 27%;
+		height: 570px;
+		float: left;
+		border: 1px solid black;
+		margin: 15px 10px;
+	}
+	.postagens{
+		width: 100%;
+		height:600px;
+		overflow: hidden;
+		float: left;
+		margin: 0 0 10px 0;
+		border: 0px solid red;
+	}
+
+	.postagens_recentes{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		float: left;
+		margin: 0 0 10px 0;
+		border: 0px solid red;
+
+
+
+
+	}
+
+	.titulos{
+			font-size: 20px;
+			font-family:calibri,sans-serif;
+			float: left;
+			width: 96%;
+			margin: 10px 2%;
+			text-align: center;
+	}
+	.titulos a:hover{
+
+		color:#59F;
+
+
+
+	}
+
+	.paragrafo,.data{
+		font-size: 20px;
+		color: #111;
+		float: left;
+		width: 96%;
+		font-family: calibri,sans-serif;
+		margin: 10px 2%;
+
+	}
+        
+        .deletar {
+          cursor: pointer;
+          color: blue;
+        }
+/*-----------------------FIM DO CONTEUDO----------------------------*/
+       
+
+
+
+
+
+/* ----------------------PAGINA DE CONTATO--------------------------*/
+
+	.campos,.campos_cad,#botoes,.botoes{
+
+		width: 80%;
+		margin: 10px 10%;
+		min-height: 30px;
+		float: left;
+	}
+	#box_form{
+		width: 80%;
+		min-height: 300px;
+		background-color: #fff;
+		margin: 40px auto;overflow: hidden;
+	}
+
+	.bt_cad{
+		float: left;
+		font-size: 16px;
+		padding: 5px;
+		margin-right: 5px;
+	}
+
+	.form_link{
+		color: #59f;
+		font-size: 16px;
+		float: left;
+		
+	}
+	.p_form{
+		color: #333;
+		font-size: 20px;
+		float: left;
+		width: 100%;
+		
+	}
+
+
+
+
+
+
+
+
+/*-----------------------FIM DA PAGINA DE CONTATO-------------------*/
+
+/*----------------------iNICIO DO RODAPE ---------------------------*/
+
+	#rodape{
+    position: relative;
+	width: 100%;
+	height: 70px;
+	float: left;
+	background-color:black;
+	color: white;
+	}
+
+	.direitos{
+
+     color: #fff;
+     text-align: center;
+     margin-top: 15px;
+
+
+	}
+/*-----------------------FIM DO RODAPE-------------------------*/
+	#geral{
+	max-width: 1000px;
+	height: 1100px;
+	overflow:hidden;
+	margin: 0 auto;
+	}
+
+	body{
+	background-color: #ffD;
+
+
+	}

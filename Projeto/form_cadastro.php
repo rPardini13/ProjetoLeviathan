@@ -31,13 +31,13 @@
 
 			$resultado = mysqli_query($link,$sql);
 			foreach($resultado as $valor) {
-				$nome = $valor['nome'];
-                $telefone = $valor['telefone'];
-				$email = $valor['email'];
-				$senha = $valor['senha'];
+				$nome        = $valor['nome'];
+                $telefone    = $valor['telefone'];
+				$email       = $valor['email'];
+				$senha       = $valor['senha'];
 				$repetesenha = $valor['repetesenha'];
 			}
-			echo $nome;
+		//	echo $nome;
 
 		}
     	?>
